@@ -2,7 +2,18 @@
 
 This section contains business-focused analysis using SQL along with insights.
 
----
+
+- Data Validation Checks  
+- Superstore Dataset  
+- Purpose: Validate data quality before analysis
+
+
+
+
+
+
+
+
 
 ## 1. Monthly Sales Trend
 **Result:**  
