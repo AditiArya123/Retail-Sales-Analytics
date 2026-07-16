@@ -1,11 +1,26 @@
-# 📊 End-to-End Retail Sales Analysis | Python, SQL & Excel
+# 📊 End-to-End Retail Sales Analytics | Python, SQL, Excel & Power BI
 
-An end-to-end retail sales analytics project built using Python (Pandas), SQL, and Excel. The project demonstrates a complete analytics workflow, including data preprocessing, validation, SQL-based business analysis, and dashboard creation to uncover insights into sales performance, profitability, customer behavior, and regional trends.
+An end-to-end retail sales analytics project built using Python (Pandas), SQL, Excel, and Power BI. The project demonstrates a complete analytics workflow, including data preprocessing, SQL-based business analysis, interactive dashboard development, and business insight generation from retail sales data.
+
+## 🔄 Project Pipeline
+
+Raw Dataset  
+↓  
+Python (Data Cleaning & Validation)  
+↓  
+SQLite (Business Analysis)  
+↓  
+Excel (Reporting & Charts)  
+↓  
+Power BI (Interactive Dashboard)  
+↓  
+Key Insights
 
 ## Tools Used
 - Python (Pandas)
 - SQL (SQLite)
 - Microsoft Excel
+- Power BI
 - GitHub
 
 ## Project Structure
@@ -34,27 +49,47 @@ An end-to-end retail sales analytics project built using Python (Pandas), SQL, a
    - Solved 8 business-focused SQL questions using aggregations, window functions, and analytical queries.
 
 5. **Visualize**
-   - Created Excel charts to communicate business insights and trends.
 
-## Key Insights
+   - Created Excel charts for SQL outputs.
+   - Developed an interactive Power BI dashboard to explore KPIs, sales trends, customer behavior, and regional performance.
 
-- Sales show seasonal fluctuations while maintaining overall growth.  
-- High discount levels negatively impact overall profitability.  
-- A small number of customers contribute a significant share of total sales.  
-- Product profitability varies considerably across categories and regions.  
-- Several products consistently generate losses despite strong sales volumes.
+## 📊 Power BI Dashboard
+
+### Executive Dashboard
+
+![Executive Dashboard](images/executive_dashboard.png)
+
+### Customer & Product Analysis
+
+![Customer & Product Analysis](images/customer_product_dashboard.png)
+
+## 📈 Key Insights
+
+- Monthly sales exhibited seasonal fluctuations while maintaining an overall upward trend.
+- Higher discount levels were associated with reduced profitability, highlighting opportunities to optimize pricing strategies.
+- A relatively small group of customers generated a significant share of total revenue.
+- Sales and profit performance varied across product categories, regions, and customer segments.
+- Several products consistently generated losses despite strong sales, indicating opportunities for product portfolio optimization.
+
+## 📂 Dataset
+
+- **Source:** Kaggle - Sample Superstore Dataset
+- **Records:** ~9,900 sales transactions
+- **Domain:** Retail Sales Analytics
 
 ## Skills Demonstrated
 
-- SQL (Aggregations, Joins, Window Functions)
+- SQL (Joins, Aggregations, CTEs, Window Functions)
 - Python (Pandas)
+- ETL & Data Preprocessing
 - Data Cleaning & Validation
-- ETL Fundamentals
 - Exploratory Data Analysis (EDA)
+- Power BI Dashboard Development
+- DAX Measures
 - Microsoft Excel
-- Business Insight Generation
-- GitHub Documentation
+- Business Intelligence & Data Visualization
+- Git & GitHub
 
 ## Full Analysis
 
-See `Solution.md`
+The complete SQL queries, outputs, business insights, and recommendations are available in **Solution.md**.
